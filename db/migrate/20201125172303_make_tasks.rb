@@ -4,6 +4,7 @@ class MakeTasks < ActiveRecord::Migration[5.2]
       t.string :name
       t.integer :worker_id
       t.integer :creator_id
+      t.integer :category_id
     end
   end
 end
